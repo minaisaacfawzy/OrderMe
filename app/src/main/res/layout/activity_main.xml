@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="4dp"
-        android:text="TextView"
+        android:text="@string/Name"
         app:layout_constraintStart_toEndOf="@+id/guideline"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -30,7 +30,6 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -39,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="TextView"
+        android:text="@string/Toppings"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/etxtName" />
 
@@ -48,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Whipped cream"
+        android:text="@string/whipped_cream"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/txtvToppings" />
 
@@ -57,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Chocolate"
+        android:text="@string/chocolate"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/chbxWhippedCream" />
 
@@ -72,10 +71,10 @@
 
     <Button
         android:id="@+id/btnIncQuan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:text="Button"
+        android:text="Add"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/txtvQuantity" />
 
@@ -87,18 +86,17 @@
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="TextView"
         app:layout_constraintBottom_toBottomOf="@+id/btnIncQuan"
         app:layout_constraintStart_toEndOf="@+id/btnIncQuan"
         app:layout_constraintTop_toTopOf="@+id/btnIncQuan" />
 
     <Button
         android:id="@+id/btnDecQuan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:text="Button"
+        android:text="sub"
         app:layout_constraintBottom_toBottomOf="@+id/btnIncQuan"
         app:layout_constraintStart_toEndOf="@+id/txtvQuan"
         app:layout_constraintTop_toTopOf="@+id/btnIncQuan" />
