@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">اطلبلي</string>
+    <string name="Name">الأسم :</string>
+    <string name="Toppings">الأضافات</string>
+    <string name="whipped_cream">كريمة</string>
+    <string name="chocolate">شيكولاتة</string>
+    <string name="order_summary_name">الأسم: <xliff:g id="name">%s</xliff:g> </string>
+
+    <string name="order_summary_whipped_cream">اضافة كريمة؟ <xliff:g id="addWhippedCream" example="true">%b</xliff:g></string>
+
+    <!--
+      Chocolate topping for the order summary. It will be shown in the format of
+      "Add chocolate? true" or "Add chocolate? false". [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_chocolate"> اضافة شيكولاتة ؟<xliff:g id="addChocolate" example="true">%b</xliff:g></string>
+
+    <!--
+      Quantity of coffee cups for the order summary. It will be shown in the format of
+      "Quantity: 2", where 2 is the number of cups ordered. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_quantity"> الكمية:<xliff:g id="quantity" example="2">%d</xliff:g> </string>
+
+    <!--
+      Total price for the order summary. It will be shown in the format of
+      "Total: $10" where $10 is the price. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_price">المجموع :<xliff:g id="price" example="$10">%s</xliff:g></string>
+
+    <!-- Thank you message for the order summary. [CHAR LIMIT=NONE] -->
+    <string name="thank_you">شكرا لك !</string>
+
+    <!--
+      Subject line for the order summary email. It will be in the format of
+      "Just Java order for Amy" where Amy is the user's name. [CHAR LIMIT=NONE]
+    -->
+    <string name="order_summary_email_subject">طلب<xliff:g id="name" example="Amy">%s</xliff:g> </string>
+    <string name="btn_submit_string">نفذ</string>
+</resources>

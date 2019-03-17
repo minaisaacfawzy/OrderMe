@@ -74,7 +74,8 @@
         android:layout_width="48dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
-        android:text="Add"
+        android:onClick="increment"
+        android:text="+"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/txtvQuantity" />
 
@@ -86,6 +87,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:text="1"
         app:layout_constraintBottom_toBottomOf="@+id/btnIncQuan"
         app:layout_constraintStart_toEndOf="@+id/btnIncQuan"
         app:layout_constraintTop_toTopOf="@+id/btnIncQuan" />
@@ -96,17 +98,20 @@
         android:layout_height="48dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:text="sub"
+        android:onClick="decrement"
+        android:text="-"
         app:layout_constraintBottom_toBottomOf="@+id/btnIncQuan"
         app:layout_constraintStart_toEndOf="@+id/txtvQuan"
-        app:layout_constraintTop_toTopOf="@+id/btnIncQuan" />
+        app:layout_constraintTop_toTopOf="@+id/btnIncQuan"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Button"
+        android:onClick="submitOrder"
+        android:text="@string/btn_submit_string"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/btnIncQuan" />
 </android.support.constraint.ConstraintLayout>
