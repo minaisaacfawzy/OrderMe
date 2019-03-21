@@ -9,12 +9,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginTop="4dp"
         android:text="@string/Name"
         app:layout_constraintStart_toEndOf="@+id/guideline"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/HeaderTextStyle"/>
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline"
@@ -35,12 +33,11 @@
 
     <TextView
         android:id="@+id/txtvToppings"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+
         android:text="@string/Toppings"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/etxtName" />
+        app:layout_constraintTop_toBottomOf="@+id/etxtName"
+        style="@style/HeaderTextStyle"/>
 
     <CheckBox
         android:id="@+id/chbxWhippedCream"
@@ -62,12 +59,10 @@
 
     <TextView
         android:id="@+id/txtvQuantity"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:text="Quantity"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/chbxChoclate" />
+        app:layout_constraintTop_toBottomOf="@+id/chbxChoclate"
+        style="@style/HeaderTextStyle"/>
 
     <Button
         android:id="@+id/btnIncQuan"
